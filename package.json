@@ -1,0 +1,26 @@
+{
+  "name": "confirmer",
+  "version": "0.0.0",
+  "description": "Simple y/n prompt for the command line",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo 1"
+  },
+  "author": {
+    "name": "Alan Clarke",
+    "email": "hi@alz.io",
+    "url": "alz.io"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alanclarke/confirmer.git"
+  },
+  "license": "UNLICENSED",
+  "devDependencies": {
+    "standard": "^6.0.8"
+  },
+  "dependencies": {}
+}
