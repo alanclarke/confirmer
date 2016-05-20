@@ -1,7 +1,7 @@
 module.exports = function confirmer (question) {
   if (process.stdin.isTTY) process.stdin.setRawMode(true)
   return new Promise(function (resolve, reject) {
-    process.stdout.write(`${question} `)
+    process.stdout.write(`\n${question} `)
     process.stdin.on('data', handleKey).resume()
     function handleKey (key) {
       key = String(key)
