@@ -3,7 +3,10 @@ Simple y/n prompt for the command line
 
 features:
 - only one keypress required (y/n)
+- ignores invalid user input
+- preserves behaviour of ^C and ^D
 - simple promise based api
+- queues multiple questions
 
 ## installation
 ```
