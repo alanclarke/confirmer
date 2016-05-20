@@ -1,6 +1,6 @@
 {
   "name": "confirmer",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Simple y/n prompt for the command line",
   "main": "index.js",
   "directories": {
