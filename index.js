@@ -1,9 +1,10 @@
 module.exports = function confirmer (question) {
   if (process.stdin.isTTY) process.stdin.setRawMode(true)
   return new Promise(function (resolve, reject) {
-    process.stdout.write(`\n${question} `)
+    process.stdout.write(`${question} \n`)
     process.stdin.on('data', handleKey).resume()
     function handleKey (key) {
+      if (key[0] === 3 || key[0] === 4) return process.stdin.pause()
       key = String(key)
       if (!(/^[yn]$/i).test(key)) return
       process.stdin.removeListener('data', handleKey).pause()
