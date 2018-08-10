@@ -9,11 +9,7 @@
   "scripts": {
     "test": "echo 1"
   },
-  "author": {
-    "name": "Alan Clarke",
-    "email": "hi@alz.io",
-    "url": "alz.io"
-  },
+  "author": "Alan Clarke <code@alz.io> (alz.io)",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/alanclarke/confirmer.git"
@@ -22,5 +18,10 @@
   "devDependencies": {
     "standard": "^6.0.8"
   },
-  "dependencies": {}
+  "dependencies": {},
+  "bugs": {
+    "url": "https://github.com/alanclarke/confirmer/issues"
+  },
+  "homepage": "https://github.com/alanclarke/confirmer#readme",
+  "keywords": []
 }
